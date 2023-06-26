@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Bish Print</title>
+    <style>
+      body {
+        background: #1fe405
+          url(https://e1.pxfuel.com/desktop-wallpaper/987/5/desktop-wallpaper-black-spiderman-red-eye-iphone-pinterest-spider-man-eyes-thumbnail.jpg); /* Цвет фона и путь к файлу */
+        color: red; /* Цвет текста */
+      }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Bish print</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Главная</a></li>
+
+          <li><a href="#">Каталог</a></li>
+
+          <li><a href="#">О нас</a></li>
+
+          <li><a href="#">Контакты</a></li>
+
+          <li><a href="tel:+996999261313"> +996999261313</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="product-list">
+        <div class="product">
+          <img
+            src="https://sun9-44.userapi.com/impg/C3to4m0w8FD39SWwo-kz1PD0_Y-IwHQlNWzCJA/JJep98PNDCM.jpg?size=1071x1080&quality=95&sign=f184e54a09d5dd1ce0b360d8be27df9a&type=album"
+            width="150px: hidht:150px"
+            alt="Товар 1"
+          />
+          <h2>Футболка 1</h2>
+
+          <p>100% хлопок</p>
+          <button>Добавить в корзину</button>
+        </div>
+        <div class="product">
+          <img
+            src="https://sun9-15.userapi.com/impf/c840538/v840538756/20857/M25A9JugoXY.jpg?size=640x640&quality=96&sign=8f59223a89e15eed1aef9f88686d19cc&type=album"
+            width="150px: hidht:150px"
+            alt="Товар 2"
+          />
+          <h2>Футболка 2</h2>
+
+          <p>100% хлопок</p>
+          <button>Добавить в корзину</button>
+        </div>
+      </section>
+
+      <section class="shopping-cart">
+        <h2>Корзина</h2>
+        <ul></ul>
+        <button>заказать</button>
+      </section>
+    </main>
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+          src="https://sun9-44.userapi.com/impg/C3to4m0w8FD39SWwo-kz1PD0_Y-IwHQlNWzCJA/JJep98PNDCM.jpg?size=1071x1080&quality=95&sign=f184e54a09d5dd1ce0b360d8be27df9a&type=album"
+          width="200px: hidht:120px class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img
+          src="https://sun9-63.userapi.com/impg/5ao-9tnOuW7QABHC3fUB8QR_4V6PM-YPRjGzpQ/dkR_g20jP-0.jpg?size=1071x1080&quality=95&sign=8d7524dd10ad771b9a6fc573a6241238&type=album"
+          width="200px: hidht:120pxclass="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img
+          src="https://sun9-16.userapi.com/impg/As45SQzJze5jjdLqU1AgTYiFdApIgaEkHmZ5fg/-3Rh02hNRmU.jpg?size=1071x1080&quality=95&sign=f1f69960481a7d2bf1489740c7cd8df7&type=album"
+          width="200px: hidht:120px class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <footer>
+      <p>© 2023 Bish Print. Все права защищены так что не трогайте</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
